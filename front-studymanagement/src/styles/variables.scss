@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'yekanr';
+  src: url("/src/assets/fonts/yekan.woff") format('woff');
+}
+
+$body-font-family : 'yekan';
+
+
+input {
+  font-family: "Roboto", sans-serif;
+  direction: ltr
+}
