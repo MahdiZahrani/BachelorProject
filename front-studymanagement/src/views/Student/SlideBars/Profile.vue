@@ -17,18 +17,18 @@
                     <v-list-item-subtitle class="text-center mb-3">mahdizahrani76@gmail.com</v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
-
             <v-list-item-group>
                 <v-list-item
                         v-for="(item, i) in items"
                         :key="i"
-                >
+                        @click="handleClick(item)">
+
                     <v-list-item-icon>
                         <v-icon v-text="item.icon"></v-icon>
                     </v-list-item-icon>
 
-                    <v-list-item-content>
-                        <v-list-item-title v-text="item.text"></v-list-item-title>
+                    <v-list-item-content >
+                        <v-list-item-title v-text="item.text" ></v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </v-list-item-group>
@@ -37,17 +37,31 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex';
 export default {
     data() {
         return {
             items: [
-                { text: 'برنامه های من', icon: 'flaticon-pages-hand-drawn-interface-symbol' },
-                { text: 'گزارش ها', icon: 'flaticon-drawers-hand-drawn-tool-outline' },
-                { text: 'تنظیمات', icon: 'flaticon-settings-hand-drawn-symbol' }
+                { text: 'برنامه های من',
+                  icon: 'flaticon-pages-hand-drawn-interface-symbol',
+                  modal : 'RequestPlaneModal' },
+
+                { text: 'گزارش ها',
+                  icon: 'flaticon-drawers-hand-drawn-tool-outline' },
+
+                { text: 'تنظیمات',
+                  icon: 'flaticon-settings-hand-drawn-symbol' }
             ],
         }
-     }
-
+     },
+    methods : {
+      handleClick(item) {
+        if(typeof item.modal !== 'undefined'){
+            // this[item.modal]();
+            this.$store.commit('showModal',item.modal);
+        }
+      }
+    }
 }
 </script>
 

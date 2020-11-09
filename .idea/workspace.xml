@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4285f2e-72a5-4799-a6be-376fcf9c96e3" name="Default Changelist" comment="" />
+    <list default="true" id="a4285f2e-72a5-4799-a6be-376fcf9c96e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Core/AppModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Core/RightSideBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Core/RightSideBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/SlideBars/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/SlideBars/Profile.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/api-studymanagement/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -118,9 +137,31 @@
       <path value="$PROJECT_DIR$/api-studymanagement/vendor/facade/ignition-contracts" />
     </include_path>
   </component>
+  <component name="ProjectId" id="1jped2StuOABSQdpQD11256EWVs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/api-studymanagement/storage/logs/laravel.log" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front-studymanagement/src/views/Modals" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,10 +172,36 @@
       <option name="presentableId" value="Default" />
       <updated>1604425501988</updated>
       <workItem from="1604425504019" duration="960000" />
+      <workItem from="1604505557336" duration="44000" />
+      <workItem from="1604562573402" duration="6269000" />
+      <workItem from="1604647737579" duration="4106000" />
+      <workItem from="1604900156395" duration="20339000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="697" y="379" width="524" height="356" key="#Notifications" timestamp="1604425833741">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="697" y="379" width="524" height="356" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1604425833741" />
+    <state x="370" y="200" width="432" height="486" key="FileChooserDialogImpl" timestamp="1604667821510">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="370" y="200" width="432" height="486" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1604667821510" />
+    <state x="457" y="190" key="SettingsEditor" timestamp="1604564496511">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="457" y="190" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604564496511" />
+    <state x="2578" y="84" width="603" height="918" key="find.popup" timestamp="1604902910695">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2578" y="84" width="603" height="918" key="find.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604902910695" />
+    <state x="620" y="255" key="run.anything.popup" timestamp="1604433217551">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="620" y="255" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604433217551" />
   </component>
 </project>

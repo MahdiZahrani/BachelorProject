@@ -13,6 +13,7 @@
         </v-col>
 
         <dashboard-left-sidebar :hidee="drawerLeft" class="ma-4" ></dashboard-left-sidebar>
+        <dashboard-app-modal></dashboard-app-modal>
     </v-row>
 </template>
 
@@ -22,6 +23,8 @@
     import RightSideBar from "./Core/RightSideBar";
     import LeftSideBar from "./Core/LeftSideBar";
     import Main from "./Main/Main";
+    import AppModal from "./Core/AppModal";
+
     export default {
         data(){
             return{
@@ -33,7 +36,8 @@
             'dashboard-app-bar' : AppBar,
             'dashboard-right-sidebar' :RightSideBar,
             'dashboard-left-sidebar' :LeftSideBar,
-            'dashboard-main' : Main
+            'dashboard-main' : Main,
+            'dashboard-app-modal' : AppModal
         },
         methods:{
             rightSidebar(event) {

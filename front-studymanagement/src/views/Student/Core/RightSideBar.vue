@@ -16,6 +16,7 @@
 <script>
     import Profile from "../SlideBars/Profile";
     import Counselor from "../SlideBars/Counselor";
+
     export default {
         props:['hide'],
         data(){
