@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4285f2e-72a5-4799-a6be-376fcf9c96e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Core/AppModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Core/RightSideBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Core/RightSideBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/Dashboard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/SlideBars/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/SlideBars/Profile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/errors/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/errors/404.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +170,9 @@
       <workItem from="1604505557336" duration="44000" />
       <workItem from="1604562573402" duration="6269000" />
       <workItem from="1604647737579" duration="4106000" />
-      <workItem from="1604900156395" duration="20339000" />
+      <workItem from="1604900156395" duration="21195000" />
+      <workItem from="1604992814853" duration="1522000" />
+      <workItem from="1605037884613" duration="2376000" />
     </task>
     <servers />
   </component>
