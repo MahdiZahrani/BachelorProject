@@ -6,7 +6,7 @@
                 <h1>404</h1>
             </div>
             <div class="text-h4">صفحه‌ای که دنبال آن بودید پیدا نشد!</div>
-            <a href="#" class="mt-3">صفحه اصلی</a>
+            <a href="/dashboard" class="text-h6 mt-3">صفحه اصلی</a>
         </div>
     </div>
 </template>
