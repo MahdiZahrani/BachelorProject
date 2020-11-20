@@ -8,14 +8,15 @@ class Time extends Model
 {
     protected $fillable = ['user_id', 'day' , 'from' , 'to'];
 
-    protected static $day = [
-        'sat' => 'sat',
-        'sun' => 'sun',
-        'mon' => 'mon',
-        'tue' => 'tue',
-        'the' => 'thu',
-        'wed' => 'wed',
-        'fri' => 'fri'];
+    public static $day = [
+        'sat' => 'شنبه',
+        'sun' => 'یکشنبه',
+        'mon' => 'دوشنبه',
+        'tue' => 'سه شنبه',
+        'the' => 'چهارشنبه',
+        'wed' => 'پنج شنبه',
+        'fri' => 'جمعه'
+    ];
 
     public function user()
     {

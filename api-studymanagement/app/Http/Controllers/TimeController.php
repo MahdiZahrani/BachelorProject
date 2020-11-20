@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\TimeRequest;
+use App\Http\Resources\TimeResource;
 use App\Time;
 use App\User;
 use Carbon\Carbon;
@@ -18,7 +19,9 @@ class TimeController extends Controller
      */
     public function index()
     {
-        //
+        $userTimes = Time::where('user_id',auth()->id())->get();
+        return TimeResource::collection($userTimes);
+
     }
 
     /**
@@ -39,7 +42,13 @@ class TimeController extends Controller
      */
     public function store(TimeRequest $request)
     {
-        $time = Time::create($request->all());
+        $time = Time::create([
+            "user_id"   => auth()->id(),
+            "day"       => $request->day,
+            "from"      => $request->start,
+            "to"        => $request->end,
+            "enable"    => "1"
+        ]);
         return response()->json($time,201);
 
     }

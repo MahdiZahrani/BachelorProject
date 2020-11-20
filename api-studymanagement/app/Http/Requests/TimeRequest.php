@@ -23,11 +23,11 @@ class TimeRequest extends FormRequest
      */
     public function rules()
     {
+
         return [
-            "user_id"  => "required|exists:users,id",
             "day"      => "required|in:sat,sun,mon,tue,thu,wed,fri",
-            "from"     => "required|date_format:Y-m-d H:i:s",
-            "to"       => "required|date_format:Y-m-d H:i:s"
+            "start"     => "required|date_format:H:i",
+            "end"       => "required|date_format:H:i"
         ];
     }
 }

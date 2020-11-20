@@ -16,10 +16,10 @@ class CreateTimesTable extends Migration
         Schema::create('times', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete("cascade");
-            $table->foreignId('schedule_id')->constrained()->onDelete("cascade");
             $table->enum('day',['sat','sun','mon','tue','thu','wed','fri']);
-            $table->dateTime('from',0);
-            $table->dateTime('to',0);
+            $table->time('from',0);
+            $table->time('to',0);
+            $table->integer('enable')->default(1);
             $table->timestamps();
         });
     }
