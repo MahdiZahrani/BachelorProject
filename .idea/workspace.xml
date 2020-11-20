@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a4285f2e-72a5-4799-a6be-376fcf9c96e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front-studymanagement/src/store/requestPlanModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/errors/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/errors/404.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-studymanagement/app/Http/Controllers/TimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api-studymanagement/app/Http/Controllers/TimeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-studymanagement/app/Http/Requests/TimeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api-studymanagement/app/Http/Requests/TimeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-studymanagement/app/Time.php" beforeDir="false" afterPath="$PROJECT_DIR$/api-studymanagement/app/Time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-studymanagement/database/migrations/2020_09_11_072116_create_times_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/api-studymanagement/database/migrations/2020_09_11_072116_create_times_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-studymanagement/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api-studymanagement/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlaneModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Modals/RequestPlanModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-studymanagement/src/views/Student/SlideBars/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-studymanagement/src/views/Student/SlideBars/Profile.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +24,15 @@
     <pharConfigPath>$PROJECT_DIR$/api-studymanagement/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="16979" />
+    <option name="gitIntegration" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -144,13 +158,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/api-studymanagement/storage/logs/laravel.log" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-mvc-blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -173,6 +188,13 @@
       <workItem from="1604900156395" duration="21195000" />
       <workItem from="1604992814853" duration="1522000" />
       <workItem from="1605037884613" duration="2376000" />
+      <workItem from="1605074049131" duration="6773000" />
+      <workItem from="1605162543539" duration="12187000" />
+      <workItem from="1605252687877" duration="600000" />
+      <workItem from="1605267338778" duration="8687000" />
+      <workItem from="1605335164552" duration="271000" />
+      <workItem from="1605609822405" duration="434000" />
+      <workItem from="1605624718282" duration="129000" />
     </task>
     <servers />
   </component>
@@ -180,25 +202,41 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2510" y="223" key="#Inspections" timestamp="1605275237650">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2510" y="223" key="#Inspections/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605275237650" />
     <state x="697" y="379" width="524" height="356" key="#Notifications" timestamp="1604425833741">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="697" y="379" width="524" height="356" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1604425833741" />
-    <state x="370" y="200" width="432" height="486" key="FileChooserDialogImpl" timestamp="1604667821510">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="370" y="200" width="432" height="486" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1604667821510" />
-    <state x="457" y="190" key="SettingsEditor" timestamp="1604564496511">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="457" y="190" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604564496511" />
-    <state x="2578" y="84" width="603" height="918" key="find.popup" timestamp="1604902910695">
+    <state x="2674" y="152" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605274122513">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2674" y="152" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605274122513" />
+    <state x="370" y="200" width="432" height="486" key="FileChooserDialogImpl" timestamp="1605624844430">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="370" y="200" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1605624844430" />
+    <state x="370" y="200" width="432" height="486" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605335434642" />
+    <state x="2377" y="167" width="1007" height="732" key="SettingsEditor" timestamp="1605081647738">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2377" y="167" width="1007" height="732" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605081647738" />
+    <state x="457" y="190" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604564496511" />
+    <state x="658" y="109" width="646" height="896" key="find.popup" timestamp="1605610118231">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
     <state x="2578" y="84" width="603" height="918" key="find.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604902910695" />
+    <state x="658" y="109" width="646" height="896" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1605610118231" />
     <state x="620" y="255" key="run.anything.popup" timestamp="1604433217551">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="620" y="255" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604433217551" />
+    <state x="623" y="260" width="672" height="662" key="search.everywhere.popup" timestamp="1605609851721">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605273962775" />
+    <state x="623" y="260" width="672" height="662" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1605609851721" />
   </component>
 </project>
