@@ -44,7 +44,7 @@ export default {
             items: [
                 { text: 'برنامه های من',
                   icon: 'flaticon-pages-hand-drawn-interface-symbol',
-                  modal : 'RequestPlaneModal' },
+                  modal : 'RequestPlanModal' },
 
                 { text: 'گزارش ها',
                   icon: 'flaticon-drawers-hand-drawn-tool-outline' },
