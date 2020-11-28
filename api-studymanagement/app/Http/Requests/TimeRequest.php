@@ -23,7 +23,6 @@ class TimeRequest extends FormRequest
      */
     public function rules()
     {
-
         return [
             "day"      => "required|in:sat,sun,mon,tue,thu,wed,fri",
             "start"     => "required|date_format:H:i",

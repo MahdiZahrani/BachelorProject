@@ -23,11 +23,10 @@ class SubjectRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            "user_id"      => "required|exists:users,id",
-            "subject"      => "required|max:100",
-            "priority"     => "required|in:low,mid,high"
 
+        return [
+            "*.subject"      => "required|max:100",
+            "*.priority"     => "required|in:low,mid,high"
         ];
     }
 }

@@ -20,8 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('v1')->group(function () {
     Route::post('/login', 'Auth\LoginController@login');
     Route::post('/register', 'Auth\RegisterController@register');
-    Route::get('/time', 'TimeController@index');
-    Route::post('/time', 'TimeController@store');
 
     Route::middleware('auth:sanctum')->group(function () {
         Route::get('/user', function (Request $request) {

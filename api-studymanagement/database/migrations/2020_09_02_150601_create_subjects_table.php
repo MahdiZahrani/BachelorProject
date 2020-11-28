@@ -16,9 +16,9 @@ class CreateSubjectsTable extends Migration
         Schema::create('subjects', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->foreignId('schedule_id')->constrained()->onDelete("cascade");
             $table->string('subject');
             $table->enum('priority',['low','mid','high'])->default('mid');
+            $table->integer('enable')->default(1);
             $table->timestamps();
         });
     }

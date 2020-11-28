@@ -36,8 +36,14 @@ class SubjectController extends Controller
      */
     public function store(SubjectRequest $request)
     {
-        $subject = Subject::create($request->all());
-        return response()->json($subject,201);
+        foreach ($request->all() as $singleRequest){
+            $subject = new Subject();
+            $subject->user_id = auth()->id();
+            $subject->subject = $singleRequest['subject'];
+            $subject->priority = $singleRequest['priority'];
+            $subject->save();
+        }
+        return response()->json('ok',201);
     }
 
     /**
